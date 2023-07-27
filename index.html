@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lea Grigat</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="colors.css" />
+  </head>
+  <body>
+    <header>
+      <!--nav bar für Menü-->
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#works">Works</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--Main Section - ohne Footer-->
+    <main>
+      <!--Section Home-->
+      <section class="home" id="home">
+        <div class="home-box">
+          <h1>Lea Grigat</h1>
+          <span>Aspiring Web Developer</span>
+          <a href="#contact">Contact Me!</a>
+        </div>
+      </section>
+
+      <!--Section About-->
+      <section id="about" class="about">
+        <div class="about-text">
+          <h2 class="h2-centered">About</h2>
+          <p>
+            Hi there! I'm a creative and dedicated web developer with a passion
+            for turning complex problems into simple, beautiful, and intuitive
+            designs. My journey began with a love for digital art, which quickly
+            evolved into a fascination with the magic of coding. From the solid
+            structure of HTML, the aesthetic detailing with CSS, to the
+            interactivity magic of JavaScript, I love every step in creating
+            digital masterpieces.
+          </p>
+
+          <p>
+            In my downtime, I enjoy exploring the latest tech news, immersing
+            myself in sci-fi novels, and attempting to perfect the art of
+            brewing the perfect cup of coffee. As a lifelong learner, I'm
+            constantly on the lookout for new challenges and opportunities to
+            grow. Let's create something amazing together!
+          </p>
+        </div>
+        <div class="about-image-background">
+          <img src="./about-gif.gif" alt="" />
+        </div>
+      </section>
+
+      <!--Section Skills-->
+      <section id="skills" class="skills">
+        <div>
+          <h2 class="h2-centered">Skills</h2>
+          <h3 class="skill-subheader">Web Development</h3>
+          <div class="skill-container">
+            <div class="skill-item">
+              <ion-icon name="logo-html5"></ion-icon>
+              <h4 class="h4-skill-item">HTML5</h4>
+              <p>
+                HTML is the cornerstone of every site I build. My use of
+                semantic HTML ensures a solid foundation and great
+                accessibility.
+              </p>
+            </div>
+
+            <div class="skill-item">
+              <ion-icon name="logo-css3"></ion-icon>
+              <h4 class="h4-skill-item">CSS3</h4>
+              <p>
+                With CSS, I'm all about clean design and responsive layouts. I
+                love making websites that look great on all devices.
+              </p>
+            </div>
+
+            <div class="skill-item">
+              <ion-icon name="logo-javascript"></ion-icon>
+              <h4 class="h4-skill-item">Javascript</h4>
+              <p>
+                JavaScript is where I add the dynamic elements. Whether it's
+                form validation or creating a single-page application, I enjoy
+                the power of JS.
+              </p>
+            </div>
+
+            <div class="skill-item">
+              <ion-icon name="git-branch-outline"></ion-icon>
+              <h4 class="h4-skill-item">Git</h4>
+              <p>
+                Git is an essential part of my workflow. It helps me manage
+                versions of my projects and collaborate effectively with other
+                developers.
+              </p>
+            </div>
+          </div>
+
+          <h3 class="skill-subheader">Other Skills</h3>
+          <div class="subskill-container">
+            <div class="subskill-item">
+              <span>Agiles Projektmanagement</span>
+            </div>
+            <div class="subskill-item">
+              <span>Scrum</span>
+            </div>
+            <div class="subskill-item">
+              <span>Typo3</span>
+            </div>
+            <div class="subskill-item">
+              <span>Wordpress</span>
+            </div>
+            <div class="subskill-item">
+              <span>Salesforce</span>
+            </div>
+            <div class="subskill-item">
+              <span>Produktmanagement</span>
+            </div>
+            <div class="subskill-item">
+              <span>Innovationsentwicklung</span>
+            </div>
+            <div class="subskill-item">
+              <span>Moderation</span>
+            </div>
+            <div class="subskill-item">
+              <span>Empowerment</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Section Works-->
+      <section id="works" class="works">
+        <div>
+          <h2 class="h2-centered">Works</h2>
+          <p class="works-txt">...coming soon...</p>
+        </div>
+      </section>
+
+      <!--Section Contact-->
+      <section id="contact" class="contact">
+        <h2 class="h2-centered">Contact</h2>
+        <h3 class="h3-contact">You want to get in touch? Leave your email!</h3>
+        <form>
+          <label for="first-name">First name</label>
+          <input
+            type="text"
+            name="first-name"
+            placeholder="Enter your first name"
+          />
+
+          <label for="last-name">Last name</label>
+          <input
+            type="text"
+            name="last-name"
+            placeholder="Enter your last name"
+            required
+          />
+
+          <label for="email">Enter your email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="someone@example.com"
+            required
+          />
+
+          <input type="submit" value="Send" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-left">
+          <span>
+            Lea Grigat <br />
+            Web Developer, Leipzig, Germany<br /><br />
+            Background image by
+            <a
+              href="https://www.freepik.com/author/piickfreepik"
+              target="_blank"
+              >@piickfreepik</a
+            >
+            | Animation by
+            <a href="https://dribbble.com/illotv" target="_blank">ILLO</a>
+          </span>
+        </div>
+        <div class="social-network-box">
+          <div>
+            <a href="mailto:leagrigat@gmail.com" target="_blank">
+              <ion-icon
+                class="social-network-item"
+                name="mail-outline"
+              ></ion-icon>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/lea-grigat-6520a2201/"
+              target="_blank"
+            >
+              <ion-icon
+                class="social-network-item"
+                name="logo-linkedin"
+              ></ion-icon>
+            </a>
+          </div>
+          <div>
+            <a href="https://github.com/leagrigat" target="_blank">
+              <ion-icon
+                class="social-network-item"
+                name="logo-github"
+              ></ion-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
