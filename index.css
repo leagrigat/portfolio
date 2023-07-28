@@ -203,7 +203,7 @@ nav a:hover,
   width: 100%;
 }
 
-/* Section Skills - Styling Items*/
+/* Section Skills - WebDev*/
 
 .skills {
   background-color: #f6faf0;
@@ -244,6 +244,8 @@ nav a:hover,
 .skill-item p {
   font-size: 18px;
 }
+
+/* Section Skills - Other Skills*/
 
 .subskill-container {
   display: flex;
