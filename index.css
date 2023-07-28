@@ -261,8 +261,7 @@ nav a:hover,
 
 .contact {
   background-color: #f6faf0;
-  height: calc(100vh - 45px - 150px);
-  min-height: auto;
+  min-height: calc(100vh - 45px - 150px);
 }
 
 form {
