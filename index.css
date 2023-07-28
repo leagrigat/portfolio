@@ -222,8 +222,13 @@ nav a:hover,
   color: #aa3c49;
 }
 
-.skill-item > ion-icon {
+.skill-item a > ion-icon {
   font-size: 64px;
+  color: #060803;
+}
+
+.skill-item a > ion-icon:hover {
+  transform: scale(1.05);
 }
 
 .skill-item p {
