@@ -21,6 +21,7 @@ Accent (bordeau red): #aa3c49
 
 body {
   margin: 0;
+  /*Damit Inhalt, der über ein Block-Element hinausgeht, innerhalb v. body bleibt*/
   overflow-x: hidden;
 }
 
@@ -40,7 +41,6 @@ main > section {
   min-height: calc(100vh - 45px);
   margin: 0 auto;
   box-sizing: border-box;
-  /*max-width: 1680px;*/
 }
 
 /* Style Nav bar */
@@ -88,7 +88,7 @@ nav a:hover,
 }
 
 .h4-skill-item {
-  font-size: 35px;
+  font-size: 32px;
 }
 
 .h3-contact {
@@ -208,7 +208,7 @@ nav a:hover,
 .skill-item {
   text-align: center;
   width: 400px;
-  padding: 45px 80px;
+  padding: 35px 60px;
   border-radius: 5px;
   background-color: #d4c6ebc4;
   color: #060803;
@@ -227,7 +227,7 @@ nav a:hover,
 }
 
 .skill-item p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .subskill-container {
@@ -254,7 +254,7 @@ nav a:hover,
 }
 
 .subskill-item span {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 /*Styles Contact*/
